@@ -12,6 +12,8 @@ import cz.metacentrum.perun.wui.cabinet.client.resources.PerunCabinetPlaceTokens
 import cz.metacentrum.perun.wui.cabinet.client.resources.PerunCabinetResources;
 import cz.metacentrum.perun.wui.cabinet.pages.NewPublicationPresenter;
 import cz.metacentrum.perun.wui.cabinet.pages.NewPublicationView;
+import cz.metacentrum.perun.wui.cabinet.pages.PublicationDetailPresenter;
+import cz.metacentrum.perun.wui.cabinet.pages.PublicationDetailView;
 import cz.metacentrum.perun.wui.cabinet.pages.PublicationsPresenter;
 import cz.metacentrum.perun.wui.cabinet.pages.PublicationsView;
 import cz.metacentrum.perun.wui.client.PerunPlaceManager;
@@ -68,6 +70,7 @@ public class PerunCabinet extends AbstractPresenterModule implements EntryPoint 
 
 		// bind app-specific pages
 		// TODO - implement pages
+		bindPresenter(PublicationDetailPresenter.class, PublicationDetailPresenter.MyView.class, PublicationDetailView.class, PublicationDetailPresenter.MyProxy.class);
 		bindPresenter(PublicationsPresenter.class, PublicationsPresenter.MyView.class, PublicationsView.class, PublicationsPresenter.MyProxy.class);
 		bindPresenter(NewPublicationPresenter.class, NewPublicationPresenter.MyView.class, NewPublicationView.class, NewPublicationPresenter.MyProxy.class);
 

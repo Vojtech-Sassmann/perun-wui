@@ -13,6 +13,33 @@ body {
 	margin-bottom: 8px;
 }
 
+.pubDetailAlert {
+  margin-bottom: 1px;
+  line-height:24px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.detailRow {
+  margin-top: 10px;
+}
+
+.squareButton {
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  padding: 0px;
+  margin-left: 5px;
+}
+
+.detailTextArea {
+  resize: none;
+}
+
 /* Since we show left-menu on bigger screen, align header too */
 @media screen and (min-width: 768px) {
 	.logoWrapper {

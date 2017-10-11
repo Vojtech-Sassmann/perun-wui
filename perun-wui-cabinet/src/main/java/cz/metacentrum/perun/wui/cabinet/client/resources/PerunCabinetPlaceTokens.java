@@ -12,6 +12,7 @@ public class PerunCabinetPlaceTokens extends PlaceTokens {
 	//General pages
 	public static final String PUBLICATIONS = "publications";
 	public static final String NEW_PUBLICATION = "new-publication";
+	public static final String PUBLICATION_DETAIL = "detail";
 
 	public static String getPublications() {
 		return PUBLICATIONS;

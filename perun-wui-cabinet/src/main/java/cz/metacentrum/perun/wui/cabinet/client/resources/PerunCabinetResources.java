@@ -18,6 +18,16 @@ public interface PerunCabinetResources extends ClientBundle {
 		String app();
 
 		String logoWrapper();
+
+		String pubDetailAlert();
+
+		String margin();
+
+		String detailTextArea();
+
+		String detailRow();
+
+		String squareButton();
 	}
 
 	@Source("css/PerunCabinet.gss")

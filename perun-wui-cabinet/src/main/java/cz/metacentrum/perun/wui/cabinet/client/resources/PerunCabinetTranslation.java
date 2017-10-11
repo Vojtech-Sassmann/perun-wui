@@ -41,4 +41,34 @@ public interface PerunCabinetTranslation extends PerunTranslation {
 
 	@DefaultMessage("List all")
 	String listAll();
+
+	@DefaultMessage("Publication details")
+	String pubDetail();
+
+	@DefaultMessage("Save changes")
+	String saveChanges();
+
+	@DefaultMessage("Publication was not checked by administrator yet")
+	String unCheckedPubMessage();
+
+	@DefaultMessage(", you can modify any details until then.")
+	String unCheckedPubMessageAdditional();
+
+	@DefaultMessage("Publication was checked by administrator")
+	String checkedPubMessage();
+
+	@DefaultMessage("and is locked for changes. To unlock publication please contact support.")
+	String checkedPubMessageAdditional();
+
+	@DefaultMessage("Citation")
+	String citation();
+
+	@DefaultMessage("ISBN")
+	String ISBN();
+
+	@DefaultMessage("ISSN")
+	String ISSN();
+
+	@DefaultMessage("DOI")
+	String DOI();
 }
